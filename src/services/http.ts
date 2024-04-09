@@ -1,11 +1,11 @@
+import { BASE_URL } from '@/utils/configEnv'
 import axios, { AxiosError } from 'axios'
 import JSCookie from 'js-cookie'
 
-const { ENV_API_BASE_URL } = import.meta.env
 const { CancelToken } = axios
 const source = CancelToken.source()
 const httpRequest = axios.create({
-  baseURL: `${ENV_API_BASE_URL}`,
+  baseURL: BASE_URL,
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json;charset=UTF-8'

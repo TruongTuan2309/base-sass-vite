@@ -2,7 +2,7 @@ import ToastMessage from '@/components/common/ToastMessage'
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 
-const HomePage = React.lazy(() => import('@/pages/Home/Home'))
+const HomePage = React.lazy(() => import('@/pages/Home'))
 
 const AppRoute = () => {
   return (
