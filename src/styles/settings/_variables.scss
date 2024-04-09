@@ -1,0 +1,31 @@
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+$colors: (
+  primary: #007bff,
+  secondary: #6c757d,
+  success: #28a745,
+  info: #17a2b8,
+  warning: #ffc107,
+  danger: #dc3545,
+  light: #f8f9fa,
+  dark: #343a40
+);
+
+$colors-dark: (
+  primary: #dcf537,
+  background-light: #252525,
+  background-secondary: #1d1d1d,
+);
+
+:root {
+  @each $name,
+  $color in $colors {
+    --color-#{$name}: #{$color};
+  }
+}
