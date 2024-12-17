@@ -1,10 +1,10 @@
-import i18n from '@/locales/i18n'
+import i18n from '@/lib/locales/i18n'
 import AppRoute from '@/routers/AppRouter'
-import { store } from '@/stores/store'
 import { I18nextProvider } from 'react-i18next'
 import { Provider } from 'react-redux'
 import { ThirdwebProvider } from 'thirdweb/react'
 import './styles/index.scss'
+import { store } from '@/lib/stores/store'
 
 const App = () => {
   return (

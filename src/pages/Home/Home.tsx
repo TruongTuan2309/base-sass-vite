@@ -1,4 +1,4 @@
-import { CLIENT_ID, SECRET_KEY } from '@/utils/configEnv'
+import { CLIENT_ID, SECRET_KEY } from '@/lib/configs/configEnv'
 import { createThirdwebClient } from 'thirdweb'
 import { useConnect } from 'thirdweb/react'
 import { createWallet, injectedProvider } from 'thirdweb/wallets'

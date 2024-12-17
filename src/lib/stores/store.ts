@@ -1,5 +1,5 @@
-import { loadingPage } from '@/stores/loading.slice'
-import { errorLogin } from '@/stores/middlewares/errorLogin'
+import { loadingPage } from '@/lib/stores/loading.slice'
+import { errorLogin } from '@/lib/stores/middlewares/errorLogin'
 import { combineReducers, configureStore } from '@reduxjs/toolkit'
 import { TypedUseSelectorHook, useDispatch, useSelector } from 'react-redux'
 

@@ -1,4 +1,4 @@
-import { BASE_URL } from '@/utils/configEnv'
+import { BASE_URL } from '@/lib/configs/configEnv'
 import axios, { AxiosError } from 'axios'
 import JSCookie from 'js-cookie'
 

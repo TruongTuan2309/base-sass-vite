@@ -1,4 +1,4 @@
-import { MessageError } from '@/utils/toastifyMessage'
+import { MessageError } from '@/lib/utils/toastifyMessage'
 import { isRejectedWithValue, Middleware } from '@reduxjs/toolkit'
 
 export const errorLogin: Middleware = () => (next) => (action) => {

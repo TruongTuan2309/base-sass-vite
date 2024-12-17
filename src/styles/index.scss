@@ -1,5 +1,5 @@
-@import './fonts/font';
-@import './settings/settings';
-@import './components/components';
-@import './layouts/layouts';
-@import './pages/pages';
+@use './fonts/font';
+@use './settings/settings';
+@use './components/components';
+@use './layouts/layouts';
+@use './pages';

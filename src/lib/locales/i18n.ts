@@ -2,8 +2,8 @@ import i18n from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 import { initReactI18next } from 'react-i18next'
 
-import en from '@/locales/en.json'
-import vi from '@/locales/vi.json'
+import en from '@/lib/locales/en.json'
+import vi from '@/lib/locales/vi.json'
 
 const resources = {
   en: {
