@@ -33,5 +33,5 @@ export default defineConfig({
     },
     chunkSizeWarningLimit: 1000
   },
-  envPrefix: 'ENV_'
+  envPrefix: 'VITE_'
 })
